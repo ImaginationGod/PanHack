@@ -49,12 +49,12 @@ const ResumeUploadPage = () => {
             {loading && (
                 <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center z-50">
                     <div className="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-24 w-24 mb-4"></div>
-                    <p className="text-white text-lg font-medium">Analyzing resume...</p>
+                    <p className="text-white text-lg font-medium">Analyzing report...</p>
                 </div>
             )}
 
             <div className="bg-white shadow-lg rounded-xl p-8 w-full max-w-3xl">
-                <h1 className="text-2xl font-semibold mb-4 text-center">Upload Your Resume</h1>
+                <h1 className="text-2xl font-semibold mb-4 text-center">Upload Your report</h1>
 
                 <form onSubmit={handleSubmit} className="flex flex-col items-center mb-6">
                     <input
@@ -69,7 +69,7 @@ const ResumeUploadPage = () => {
                             }`}
                         disabled={loading}
                     >
-                        Analyze Resume
+                        Analyze Report
                     </button>
                 </form>
 
