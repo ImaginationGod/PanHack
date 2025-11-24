@@ -71,7 +71,7 @@ const LoginPage = () => {
                     <p className="text-white/80 text-sm sm:text-base leading-relaxed">
                         Log in to your{" "}
                         <span className="text-yellow-300 font-semibold bg-yellow-300/20 px-2 py-0.5 rounded">
-                            AI report Analyzer
+                            AI Resume Analyzer
                         </span>
                     </p>
                 </div>
